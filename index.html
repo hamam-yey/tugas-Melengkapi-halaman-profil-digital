@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+</head>
+<style>
+    body div{
+
+        border: 1px solid black;
+        width: 60px;
+        margin-bottom: 10px;
+        padding: 10px 20px;
+        background-color: aqua;
+        display: inline-block
+        
+        
+    }
+    div:first-child{
+        background-color: aquamarine;
+    }
+    div:last-child{
+        background-color:blue;
+    }
+    div:last-child{
+        width: 300px;
+        height: 200px;
+        border: 2px solid aqua;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background-color: aquamarine;
+        margin: auto;
+        font-size: 2rem;
+        font-weight: bold;
+        box-shadow: -10px 8px 4px blue;
+        &:hover {
+        background-color:royalblue;
+        color: aquamarine;
+      }
+    }
+</style>
+<body>
+<H3 align="center">klick kotak</H3>
+<div align="center">kotak 1</div>
+<div align="center">kotak 2</div>
+<div align="center">kotak 3</div>
+<div align="center">kotak 4</div>
+<div align="center">kotak 5</div>
+
+</body>
+</html>
